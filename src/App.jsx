@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import PrivayMessage from "./components/PrivacyMessage.jsx";
 
 function App() {
-  const privacy = useSelector((store) => store.privacy);
+  const { privacyToggle } = useSelector((store) => store.privacyToggle);
   return (
     <>
       <Container>
